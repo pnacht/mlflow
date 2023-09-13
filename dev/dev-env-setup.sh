@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set +exv
+set +exv 
 
 showHelp() {
 cat << EOF
