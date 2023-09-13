@@ -14,7 +14,7 @@ option (scalapb.options) = {
 
 service DatabricksMlflowArtifactsService {
 
-  // Fetch credentials to read from the specified MLflow artifact location
+  // Fetch credentials to read from the specified MLflow artifact location 
   //
   // Note: Even if no artifacts exist at the specified artifact location, this API will
   // still provide read credentials as long as the format of the location is valid.
